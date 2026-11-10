@@ -1,0 +1,27 @@
+
+# Srodowisko wirtualne Python
+.venv/
+venv/
+
+# Pliki generowane przez Python
+__pycache__/
+*.py[cod]
+
+# Narzedzia testowe
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Konfiguracja edytorow
+.idea/
+.vscode/
+
+# Hasla i konfiguracja lokalna
+.env
+.env.*
+!.env.example
+
+# Biblioteki i wyniki budowania frontend
+node_modules/
+dist/
+build/
