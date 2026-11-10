@@ -67,9 +67,39 @@ Na obecnym etapie:
 - Implementacja poszczególnych funkcjonalności.
 - Testowanie i poprawianie błędów.
 
+
 ## Uruchamianie
 
-Na obecnym etapie aplikacja nie posiada jeszcze gotowej wersji do uruchomienia. Po przygotowaniu struktury projektu planowany sposób uruchamiania będzie następujący.
+### Aktualny stan — P00
+
+Aplikacja CRM nie jest jeszcze zaimplementowana.
+Obecnie dostępne jest repozytorium Git oraz środowisko
+programistyczne Python.
+
+### Otwieranie projektu
+
+1. Uruchom PyCharm.
+2. Wybierz File > Open.
+3. Otwórz katalog crm-python-react.
+4. Ustaw interpreter projektu na:
+   .venv\Scripts\python.exe
+
+### Sprawdzenie interpretera
+
+W terminalu PowerShell, w katalogu projektu, wykonaj:
+
+    .\.venv\Scripts\python.exe --version
+
+Oczekiwany rezultat: Python 3.12.x.
+
+### Kolejne etapy
+
+Backend FastAPI, baza PostgreSQL i frontend React
+zostaną zaimplementowane podczas kolejnych bloków kursu.
+
+Instrukcje uruchamiania aplikacji zostaną dodane
+po wdrożeniu i przetestowaniu tych komponentów.
+
 
 **1. Uruchomienie backendu (Python)**
 
